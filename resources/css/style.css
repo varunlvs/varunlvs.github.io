@@ -607,7 +607,7 @@ input[type=checkbox] {
 }
 
 .map {
-	background-image: url(img/form.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(img/form.jpg);
 	background-position: bottom;
 	width: 100%;
 	height: 630px;
