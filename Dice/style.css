@@ -13,12 +13,19 @@
     padding: 10px;
     width: 160px;
     text-transform: uppercase;
+    border: 1px solid #888;
 }
 
 .final-score:focus {outline:none;}
 
 #dice-1 {top:120px;}
 #dice-2 {top:250px;}
+
+.note h5{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
 
 * {
     margin: 0;
