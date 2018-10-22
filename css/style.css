@@ -22,3 +22,9 @@
 		padding: 3em !important;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+    .mobile {
+        width: 84.3%;
+    }
+}
