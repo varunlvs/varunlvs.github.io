@@ -1,0 +1,17 @@
+{
+  "name": "praash",
+  "version": "1.0.0",
+  "description": "Shipping Services",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Varun",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
+}
