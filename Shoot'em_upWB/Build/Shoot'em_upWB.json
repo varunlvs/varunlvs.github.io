@@ -1,0 +1,12 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Lets Run",
+"dataUrl": "Shoot'em_upWB.data.unityweb",
+"wasmCodeUrl": "Shoot'em_upWB.wasm.code.unityweb",
+"wasmFrameworkUrl": "Shoot'em_upWB.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
