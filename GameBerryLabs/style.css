@@ -1,0 +1,178 @@
+#preloader {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+#status {
+	background-image: url("preloader.gif");
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -35px;
+	margin-left: -35px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+}
+
+.row {
+	display: table;
+	width: 100%;	
+}
+
+.container {
+	display: table-cell;
+	width: 40%;
+	height: 100vh;
+	background: linear-gradient(to top, rgba(0,0,0,.8), rgba(0,0,0,.4)), url("gem.jpg");
+	background-size: cover;
+	background-position: bottom;
+	border-right: 2px solid #9f9f9f;	
+}
+
+
+.container2 {
+	display: table-cell;
+	width: 60%;
+	height: 100vh;
+	background-color: #f7f4f4;
+}
+
+.header {
+	margin-top: 0;	
+	font-size: 50px;
+	padding: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	font-weight: 300;
+	transition: all .5s;
+	border-bottom: 2px solid #000;
+}
+
+.header:hover {
+	letter-spacing: 4px;
+	transition: all .5s;
+	cursor: pointer;
+}
+
+.content {
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 300;
+}
+
+.links {
+	display: table;
+	width: 100%;
+	background-color: yellow;
+	margin: 0 auto;
+	height: 40vh;
+	margin-top: 2rem;	
+}
+
+.link-1 {
+	background: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)), url("resume.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 33.33%;
+	height: 100%;	
+	float: 	left;
+	display: inline-block;
+	transition: all .5s;
+}
+
+.link-1:hover {
+	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("resume.jpg");
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.link-1:hover p {
+	margin-top: 100px;
+	transition: all .5s;
+}
+
+.link-2 {
+	background: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)), url("portfolio.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 33.33%;
+	height: 100%;	
+	float: 	left;
+	display: inline-block;
+	transition: all .5s;
+}
+
+.link-2:hover {
+	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("portfolio.jpg");
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.link-2:hover p {
+	margin-top: 100px;
+	transition: all .5s;
+}
+
+.link-3 {
+	background: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)), url("coverLetter.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 33.33%;
+	height: 100%;	
+	float: 	left;
+	display: inline-block;
+	transition: all .5s;
+}
+
+.link-3:hover {
+	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("coverLetter.jpg");
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.link-3:hover p {
+	margin-top: 100px;
+	transition: all .5s;
+}
+.imageCaption {
+ 	color: white;
+ 	font-weight: 100;
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	margin: 50px;
+ }
+
+ .quote {
+ 	padding: 20px;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: black;
+}
+
+.quote:hover {
+	color: red;
+	transition: all .5s;
+	cursor: pointer;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
