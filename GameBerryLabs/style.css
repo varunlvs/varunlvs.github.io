@@ -97,7 +97,6 @@ body {
 
 .link-1:hover {
 	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("resume.jpg");
-	cursor: pointer;
 	transition: all .5s;
 }
 
@@ -119,7 +118,6 @@ body {
 
 .link-2:hover {
 	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("portfolio.jpg");
-	cursor: pointer;
 	transition: all .5s;
 }
 
@@ -129,6 +127,7 @@ body {
 }
 
 .link-3 {
+	/*clear: both;*/
 	background: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)), url("coverLetter.jpg");
 	background-size: cover;
 	background-position: center;
@@ -141,13 +140,13 @@ body {
 
 .link-3:hover {
 	background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)), url("coverLetter.jpg");
-	cursor: pointer;
 	transition: all .5s;
 }
 
 .link-3:hover p {
 	margin-top: 100px;
 	transition: all .5s;
+	cursor: pointer;
 }
 .imageCaption {
  	color: white;
@@ -175,4 +174,16 @@ body {
 a {
 	color: white;
 	text-decoration: none;
+}
+
+.cover {
+	display: block;
+	background-color: transparent;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	transition: all .5s;
 }
