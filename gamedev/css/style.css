@@ -151,6 +151,8 @@ ORDER : base + typography > general layout + grid > page layout > components
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
       .card__side--back-10 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      .card__side--back-11 {
+        background-image: linear-gradient(to right bottom, #333, #333); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -184,6 +186,8 @@ ORDER : base + typography > general layout + grid > page layout > components
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.8), rgba(86, 67, 250, 0.5)), url(../img/nat-13.jpg); }
     .card__picture--10 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.4), rgba(255, 119, 48, 0.4)), url(../img/nat-14.jpg); }
+    .card__picture--11 {
+      background-image: linear-gradient(to right bottom, #333, #333), url(../img/nat-15.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -218,6 +222,8 @@ ORDER : base + typography > general layout + grid > page layout > components
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .card__heading-span--10 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__heading-span--11 {
+      background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
