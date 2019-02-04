@@ -1,0 +1,16 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.logo {
+	color: black;
+	text-decoration: none;
+	font-family: 'Caveat', cursive;
+	font-size: 	30px;
+}
+
+.nav-listings {
+	font-family: 'Caveat', cursive;
+	color: black;
+}
+
