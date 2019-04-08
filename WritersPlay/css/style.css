@@ -68,6 +68,13 @@ h3 {
     margin: 20px 0 20px 0;
 }
 
+#home-heading-tamil h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
 
 /*====================================================
                         PARALLAX (Generic)
@@ -361,6 +368,10 @@ h4.team-member-designation {
     background-image: url("../img/bg-testimonials.jpg");
 }
 
+#testimonials-title-tamil {
+    font-size: 30px;
+}
+
 #testimonials .content-box {
     background-color: rgba(0,0,0,0.1);
 }
@@ -423,6 +434,10 @@ h4.team-member-designation {
                        PRICING
 ======================================================*/
 
+#pricing-title-tamil {
+    font-size: 30px;
+}
+
 .pricing-box {
     border: 3px solid #e64a19;
     padding: 50px 0;
@@ -442,6 +457,11 @@ h4.pricing-title {
 
 h3.pricing-value {
     font-size: 60px;
+    font-weight: 700;
+}
+
+h3.pricing-value-tamil {
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -585,6 +605,12 @@ form .form-control {
     color: #fff;
 }
 
+#footer-copyrights-tamil p {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
 #footer-menu {
     float: left;
     color: #fff;
@@ -642,6 +668,10 @@ form .form-control {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+.nav-tamil > li > a {
+    font-size: 10px;
 }
 
 .navbar-nav > li > a:hover , .navbar-nav > li > a:focus {

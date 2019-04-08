@@ -81,6 +81,9 @@
     #home-heading h3 {
         font-size: 24px;
     }
+    #home-heading-tamil h3 {
+        font-size: 16px;
+    }
     /* Buttons */
     .btn-general {
         padding: 6px 22px 6px 22px;
@@ -102,6 +105,9 @@
         min-width: 100%;
     }
     /* Testimonials */
+    #testimonials-title-tamil {
+        font-size: 15px;
+    }
     .testimonial blockquote {
         padding: 6px 50px;
     }
@@ -114,12 +120,22 @@
     .testimonial blockquote p {
         font-size: 14px;
     }
+    /* Pricing */
+    #pricing-title-tamil {
+        font-size: 15px;
+    }
     /* Stats */
     .stats-item {
         padding: 20px 0;
     }
     /* Footer */
     #footer-copyrights {
+        text-align: center;
+    }
+    #footer-copyrights-tamil p {
+        margin: 0;
+        color: #fff;
+        font-size: 8px;
         text-align: center;
     }
 }
