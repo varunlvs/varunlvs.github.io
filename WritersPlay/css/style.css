@@ -3,7 +3,7 @@
 
                 Font Family                 : Roboto Condensed
                 
-                Greenish Blue               : #34c6d3       (Buttons, Icons, Links, Lines & Backgrounds)
+                Greenish Blue               : #e64a19       (Buttons, Icons, Links, Lines & Backgrounds)
                 Steel Gray                  : #41464b       (Headings)
                 Blue Bayoux                 : #64707b       (Paragraphs)
                 White                       : #fff          (Text With Black Backgrounds)
@@ -46,7 +46,7 @@ h3 {
 
 #home-cover {
     height: 100%;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/bg-home.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("../img/bg-home.jpg");
 }
 
 #home-content-box {
@@ -106,13 +106,13 @@ h3 {
 }
 
 .btn-blue {
-    border-color: #34c6d3;
-    color: #34c6d3;
+    border-color: #e64a19;
+    color: #e64a19;
 }
 
 .btn-blue:hover,
 .btn-blue:focus {
-    background-color: #34c6d3;
+    background-color: #e64a19;
     color: #fff;
 }
 
@@ -176,7 +176,7 @@ h3 {
 .content-title-underline {
     width: 30px;
     height: 3px;
-    background-color: #34c6d3;
+    background-color: #e64a19;
     margin: 0 auto 30px auto;
 }
 
@@ -192,7 +192,7 @@ h3 {
 }
 
 .service-item-icon i {
-    color: #34c6d3;
+    color: #e64a19;
     float: left;
     padding: 15px;
     margin-right: 25px;
@@ -203,7 +203,7 @@ h3 {
 
 .service-item:hover .service-item-icon i {
     color: #fff;
-    background-color: #34c6d3;
+    background-color: #e64a19;
 }
 
 .service-item-title h3 {
@@ -312,7 +312,7 @@ h4.team-member-name {
 }
 
 h4.team-member-designation {
-    color: #34c6d3;
+    color: #e64a19;
     font-size: 15px;
     font-weight: 700;
     font-style: italic;
@@ -350,7 +350,7 @@ h4.team-member-designation {
 }
 
 .social-icon i:hover {
-    color: #34c6d3;
+    color: #e64a19;
 }
 
 /*====================================================
@@ -424,13 +424,13 @@ h4.team-member-designation {
 ======================================================*/
 
 .pricing-box {
-    border: 3px solid #34c6d3;
+    border: 3px solid #e64a19;
     padding: 50px 0;
     margin: 40px 0;
 }
 
 h4.pricing-title {
-    background-color: #34c6d3;
+    background-color: #e64a19;
     color: #fff;
     display: inline-block;
     padding: 7px 15px;
@@ -465,11 +465,11 @@ ul.pricing-spec li p {
 .pricing-box-lg {
     padding: 90px 0;
     margin: 0;
-    background-color: #34c6d3;
+    background-color: #e64a19;
 }
 
 .pricing-box-lg h4.pricing-title {
-    color: #34c6d3;
+    color: #e64a19;
     background-color: #fff;
 }
 
@@ -494,7 +494,7 @@ ul.pricing-spec li p {
 }
 
 .stats-item i {
-    color: #34c6d3;
+    color: #e64a19;
 }
 
 .stats-item h2 {
@@ -611,7 +611,7 @@ form .form-control {
 }
 
 #footer-menu a:hover {
-    color: #34c6d3;
+    color: #e64a19;
 }
 
 /*====================================================
@@ -646,7 +646,7 @@ form .form-control {
 
 .navbar-nav > li > a:hover , .navbar-nav > li > a:focus {
     background: none;
-    color: #34c6d3;
+    color: #e64a19;
 }
 
 .navbar-toggle {
@@ -664,5 +664,5 @@ form .form-control {
 }
 
 .vesco-top-nav ul.navbar-nav > li.active > a {
-    color: #34c6d3;
+    color: #e64a19;
 }
