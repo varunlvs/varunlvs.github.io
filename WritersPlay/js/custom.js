@@ -102,7 +102,7 @@ $(function () {
         items: 2,
         autoplay: true,
         smartSpeed: 1000,
-        loop: false,
+        loop: true,
         autoplayHoverPause: true,
 		responsive: {
 		  0: {
@@ -123,7 +123,7 @@ $(function () {
         items: 2,
         autoplay: true,
         smartSpeed: 1000,
-        loop: false,
+        loop: true,
         autoplayHoverPause: true,
         responsive: {
           0: {
