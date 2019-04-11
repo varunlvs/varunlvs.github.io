@@ -98,11 +98,11 @@ $(function () {
 ====================================================*/
 $(function () {
 
-    $("#clients-list").owlCarousel({
-        items: 6,
+    $("#clients-list-2").owlCarousel({
+        items: 2,
         autoplay: true,
-        smartSpeed: 700,
-        loop: true,
+        smartSpeed: 1000,
+        loop: false,
         autoplayHoverPause: true,
 		responsive: {
 		  0: {
@@ -118,6 +118,27 @@ $(function () {
 			items: 6
 		  }
 		}
+    });
+    $("#clients-list-1").owlCarousel({
+        items: 2,
+        autoplay: true,
+        smartSpeed: 1000,
+        loop: false,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          480: {
+            items: 3
+          },
+          768: {
+            items: 5
+          },
+          992: {
+            items: 6
+          }
+        }
     });
 });
 
