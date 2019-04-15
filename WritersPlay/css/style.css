@@ -232,12 +232,13 @@ h3 {
 #about-bg-diagonal {
     width: 60%;
     height: 700px;
-    float: right;
+    float: left;
     background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(../img/bg-about-1.jpg);
     background-size: cover;
     background-position: top;
-    border-left: 200px solid #fff;
+    /*border-left: 200px solid #fff;*/
     border-top: 700px solid transparent;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
 }
 
 #about-content-box {
