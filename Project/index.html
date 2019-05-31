@@ -1,0 +1,395 @@
+<html>
+	<head>
+		<title>LVS DASHBOARD</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">HAPAGLOYD</a>
+				<input type="text" id="hapagCNT">
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">MAERSK</a>
+				<input type="text" id="maerskCNT">
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">CMA CGM</a>
+				<input type="text" id="cmacgmCNT">				
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">SAFMARINE</a>
+				<input type="text" id="safmarineCNT">				
+			</button></div>
+			<div class="box box-1"><button><a href="#" target="_blank">MSC</a>
+				<!-- <button style="text-transform: uppercase; background-color: #fff; border-radius: 10px; color: #000;font-size: 16px; padding: 10px;"	><a style="color: black; font-size: 12px;" href="https://www.msc.com/track-a-shipment" target="_blank">Take me there</a></button> -->
+				<input type="text" id="mscCNT">				
+			</button></div>
+			<div class="box box-1"><button><a href="#" target="_blank">EVERGREEN</a>
+				<!-- <button style="text-transform: uppercase; background-color: #fff; border-radius: 10px; color: #000;font-size: 16px; padding: 10px;"	><a style="color: black; font-size: 12px;" href="https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do" target="_blank">Take me there</a></button> -->
+				<input type="text" id="evergreenCNT">				
+			</button></div>
+		</div>
+
+		<!-- Container Tracking List 2 - UnComment to enable  -->
+
+		<!-- <div class="container">
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">MOL</a>
+				<input type="text" id="hapagCNT" placeholder="Not Updated Yet">
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">COSCO</a>
+				<input type="text" id="maerskCNT" placeholder="Not Updated Yet">
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">APL</a>
+				<input type="text" id="cmacgmCNT">				
+			</button></div>
+			<div class="box box-1"><button>
+				<a href="#" target="_blank">HSC</a>
+				<input type="text" id="safmarineCNT">				
+			</button></div>
+			<div class="box box-1"><button><a href="#" target="_blank">MSC</a>
+				<button style="text-transform: uppercase; background-color: #fff; border-radius: 10px; color: #000;font-size: 16px; padding: 10px;"	><a style="color: black; font-size: 12px;" href="https://www.msc.com/track-a-shipment" target="_blank">Take me there</a></button>
+			</button></div>
+			<div class="box box-1"><button><a href="#" target="_blank">EVERGREEN</a>
+				<button style="text-transform: uppercase; background-color: #fff; border-radius: 10px; color: #000;font-size: 16px; padding: 10px;"	><a style="color: black; font-size: 12px;" href="https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do" target="_blank">Take me there</a></button>
+			</button></div>
+		</div> -->
+		<div class="container" style="margin-top: 25px;">
+			<div class="sub-container-left">
+				<div class="box box-2 box-mini"><button><a href="#" target="_blank">O</a></button></div>
+				<div class="box box-2 box-mini"><button><a href="#" target="_blank">V</a></button></div>	
+			</div>
+			<div class="sub-container-right">
+				<div class="box box-3"><button id="n1">ABB</button></div>
+				<div class="box box-3"><button id="n2">K&R</button></div>	
+				<div class="box box-3"><button id="n3">HLX</button></div>	
+				<div class="box box-3"><button id="n4">STN</button></div>	
+				<div class="box box-3"><button id="n5">TMX</button></div>	
+				<div class="box box-3"><button id="n6">RBC</button></div>	
+				<div class="box box-3"><button id="n7">WRQ</button></div>	
+				<div class="box box-3"><button id="n8">NPL</button></div>	
+			</div>
+		</div>
+		<div class="container" style="margin-top: 10px;">
+			<div class="sub-container-left">
+				<div class="box box-2 box-mini"><button><a href="#" target="_blank">M</a></button></div>
+				<div class="box box-2 box-mini"><button><a href="#" target="_blank">S</a></button></div>	
+			</div>
+			<div class="sub-container-right">
+				<div class="box box-3"><button id="n9">BJC</button></div>	
+				<div class="box box-3"><button id="n10">CKC</button></div>	
+				<div class="box box-3"><button id="n11">CMN</button></div>	
+				<div class="box box-3"><button id="n12">UTC</button></div>	
+				<div class="box box-3"><button id="n13">HLC</button></div>
+				<div class="box box-3"><button id="n14">EXPS</button></div>	
+				<div class="box box-3"><button id="n15">INTF</button></div>	
+				<div class="box box-3"><button id="n16">?</button></div>	
+			</div>
+		</div>
+		<div class="container container-main">
+			<div class="box box-4"><button id="d6">DO</button></div>
+			<div class="box box-4"><button id="d1">HAPAG</button></div>
+			<div class="box box-4"><button id="d2">CMDU</button></div>
+			<div class="box box-4"><button id="d3">MAEU</button></div>
+			<div class="box box-4"><button id="d4">SAFM</button></div>
+			<div class="box box-4"><button id="d5">MSC</button></div>
+			<div class="box box-5"><button id="t1">AN</button></div>
+			<div class="box box-5"><button id="t2">AN/CH</button></div>
+			<div class="box box-5"><button id="t3">AN/OBL</button></div>
+			<div class="box box-5"><button id="t4">AN/CH/OBL</button></div>
+			<div class="box box-5"><button id="t5">DO/CR</button></div>
+			<div class="box box-5"><button id="t6">DO/DR</button></div>
+		</div>
+
+		<!-- <form method="GET" action="https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html?container=">
+		   <input type="text" name="q">
+		   <input type="hidden"  name="t" value="w">
+		   <input type="hidden"  name="p" value="0">
+		</form> -->
+
+		<!-- INFO GOES BELOW HERE -->
+
+		<!-- Delivery Order Mail Ids -->
+
+		<div id="d1Info" style="display: none;">rnausdo@hlag.com</div>
+		<div id="d2Info" style="display: none;">deliveryorders@cma-cgm.com</div>
+		<div id="d3Info" style="display: none;">deliveryorder@maersk.com</div>
+		<div id="d4Info" style="display: none;">deliveryorder@safmarine.com</div>
+		<div id="d5Info" style="display: none;">chido@msc.us;baldo@msc.us.com</div>
+		<div id="d6Info" style="display: none;">Delivery Order Mail IDs</div>
+
+		<!-- Templates -->
+
+		<div id="t1Info" style="display: none;">Please find attached Arrival Notice. Kindly confirm receipt.</div>
+		<div id="t2Info" style="display: none;">Please find attached Arrival Notice / Invoice. Kindly send us the charges and confirm receipt.</div>
+		<div id="t3Info" style="display: none;">Please find attached Arrival Notice. Kindly send us the original HBL and confirm receipt.</div>
+		<div id="t4Info" style="display: none;">Please find attached Arrival Notice / Invoice. Kindly send us the charges along with original HBL and confirm receipt.</div>
+		<div id="t5Info" style="display: none;">Please find attached Delivery Order for the subject shipment. Kindly confirm receipt.</div>
+		<div id="t6Info" style="display: none;">Please find attached DO for subject containers which are scheduled to reach XYZ port on XX/YY. Kindly pick up and deliver the containers as soon as it gets available.</div>
+
+		<!-- NOTIFY PARTY Mail Ids -->
+
+		<div id="n1Info" style="display: none;">gregory.page@us.abb.com;lastarla.strickland@us.abb.com;cherry.montgomery@us.abb.com;kim.rigdon@us.abb.com</div>
+		<div id="n2Info" style="display: none;">justine@kemcotrucking.com;kathy@kemcotrucking.com</div>
+		<div id="n3Info" style="display: none;">phicks@halexco.com;phicks@sfconsumerbrands.com</div>
+		<div id="n4Info" style="display: none;">Catalina.Rosario@suttonsgroup.com;SNAImports@suttonsgroup.com;danielle.snyder@suttonsgroup.com</div>
+		<div id="n5Info" style="display: none;">akelley@thermax-usa.com;erivera@thermax-usa.com;ajit@thermax-usa.com</div>
+		<div id="n6Info" style="display: none;">liz@rainbowchemicals.com;Mary.scotkovsky@geodis.com</div>
+		<div id="n7Info" style="display: none;">NIKKI@WAROCK.COM;BALE@WAROCK.COM</div>
+		<div id="n8Info" style="display: none;">kray@nowplastics.com;vjackson@nowplastics.com;itaylor@nowplastics.com;david.mccune@beltmann.com</div>
+		<div id="n9Info" style="display: none;">eosborne@livingstonintl.com;</div>
+		<div id="n10Info" style="display: none;">lserafin@charkit.com;laura.oconnor@xpo.com</div>
+		<div id="n11Info" style="display: none;">tiffany.clay@cummins.com;jerryl.johnson@cummins.com;jack.nedunuri@cummins.com;harinder.singh@cummins.com;lilly.andrews@cummins.com</div>
+		<div id="n12Info" style="display: none;">rhonda@utsllc.ws;marco.delicato@meritor.com</div>
+		<div id="n13Info" style="display: none;">import1@usgroup-atl.com;marco@usgroup-atl.com</div>
+		<div id="n14Info" style="display: none;">shawn.oughton@expeditors.com</div>
+		<div id="n15Info" style="display: none;">amymoyer@odysseylogistics.com;LISA.RHODES@CLEARFREIGHT.COM</div>
+		<div id="n16Info" style="display: none;">Notify Party Mail Ids</div>
+
+
+	<script type="text/javascript">
+		var $body = document.getElementsByTagName('body')[0];
+
+	//	Button assignments - delivery order mail ids
+		var $d1 = document.getElementById('d1');
+		var $d2 = document.getElementById('d2');
+		var $d3 = document.getElementById('d3');
+		var $d4 = document.getElementById('d4');
+		var $d5 = document.getElementById('d5');
+		var $d6 = document.getElementById('d6');
+
+	//	Button assignments - templates ids
+		var $t1 = document.getElementById('t1');
+		var $t2 = document.getElementById('t2');
+		var $t3 = document.getElementById('t3');
+		var $t4 = document.getElementById('t4');
+		var $t5 = document.getElementById('t5');
+		var $t6 = document.getElementById('t6');
+
+	//	Button assignments - notify party mail ids
+		var $n1 = document.getElementById('n1');
+		var $n2 = document.getElementById('n2');
+		var $n3 = document.getElementById('n3');
+		var $n4 = document.getElementById('n4');
+		var $n5 = document.getElementById('n5');
+		var $n6 = document.getElementById('n6');	
+		var $n7 = document.getElementById('n7');	
+		var $n8 = document.getElementById('n8');	
+		var $n9 = document.getElementById('n9');	
+		var $n10 = document.getElementById('n10');	
+		var $n11 = document.getElementById('n11');	
+		var $n12 = document.getElementById('n12');	
+		var $n13 = document.getElementById('n13');	
+		var $n14 = document.getElementById('n14');	
+		var $n15 = document.getElementById('n15');	
+		var $n16 = document.getElementById('n16');	
+
+	// Info assignments - delivery orders
+		var d1Info = document.getElementById('d1Info').innerHTML;
+		var d2Info = document.getElementById('d2Info').innerHTML;
+		var d3Info = document.getElementById('d3Info').innerHTML;
+		var d4Info = document.getElementById('d4Info').innerHTML;
+		var d5Info = document.getElementById('d5Info').innerHTML;
+		var d6Info = document.getElementById('d6Info').innerHTML;
+
+	// Info assignments - templates 
+		var t1Info = document.getElementById('t1Info').innerHTML;
+		var t2Info = document.getElementById('t2Info').innerHTML;
+		var t3Info = document.getElementById('t3Info').innerHTML;
+		var t4Info = document.getElementById('t4Info').innerHTML;
+		var t5Info = document.getElementById('t5Info').innerHTML;
+		var t6Info = document.getElementById('t6Info').innerHTML;
+
+	// Info assignments - notify party mail ids 
+		var n1Info = document.getElementById('n1Info').innerHTML;
+		var n2Info = document.getElementById('n2Info').innerHTML;
+		var n3Info = document.getElementById('n3Info').innerHTML;
+		var n4Info = document.getElementById('n4Info').innerHTML;
+		var n5Info = document.getElementById('n5Info').innerHTML;
+		var n6Info = document.getElementById('n6Info').innerHTML;
+		var n7Info = document.getElementById('n7Info').innerHTML;
+		var n8Info = document.getElementById('n8Info').innerHTML;
+		var n9Info = document.getElementById('n9Info').innerHTML;
+		var n10Info = document.getElementById('n10Info').innerHTML;
+		var n11Info = document.getElementById('n11Info').innerHTML;
+		var n12Info = document.getElementById('n12Info').innerHTML;
+		var n13Info = document.getElementById('n13Info').innerHTML;
+		var n14Info = document.getElementById('n14Info').innerHTML;
+		var n15Info = document.getElementById('n15Info').innerHTML;
+		var n16Info = document.getElementById('n16Info').innerHTML;
+
+	// Copy function using temp input type and copy clipboard action
+		var copyToClipboard = function(message) {
+		  var $tempInput = document.createElement('INPUT');
+		  $body.appendChild($tempInput);
+		  $tempInput.setAttribute('value', message)
+		  $tempInput.select();
+		  document.execCommand('copy');
+		  $body.removeChild($tempInput);
+		}
+
+	// Event Calling - DOs
+		$d1.addEventListener('click', function(ev) {
+		  copyToClipboard(d1Info);
+		});
+		$d2.addEventListener('click', function(ev) {
+		  copyToClipboard(d2Info);
+		});
+		$d3.addEventListener('click', function(ev) {
+		  copyToClipboard(d3Info);
+		});
+		$d4.addEventListener('click', function(ev) {
+		  copyToClipboard(d4Info);
+		});
+		$d5.addEventListener('click', function(ev) {
+		  copyToClipboard(d5Info);
+		});
+		$d6.addEventListener('click', function(ev) {
+		  copyToClipboard(d6Info);
+		});
+
+	// Event Calling Templates
+
+		$t1.addEventListener('click', function(ev) {
+		  copyToClipboard(t1Info);
+		});
+		$t2.addEventListener('click', function(ev) {
+		  copyToClipboard(t2Info);
+		});
+		$t3.addEventListener('click', function(ev) {
+		  copyToClipboard(t3Info);
+		});
+		$t4.addEventListener('click', function(ev) {
+		  copyToClipboard(t4Info);
+		});
+		$t5.addEventListener('click', function(ev) {
+		  copyToClipboard(t5Info);
+		});
+		$t6.addEventListener('click', function(ev) {
+		  copyToClipboard(t6Info);
+		});
+
+	// Event Calling Notify mail
+
+		$n1.addEventListener('click', function(ev) {
+		  copyToClipboard(n1Info);
+		});
+		$n2.addEventListener('click', function(ev) {
+		  copyToClipboard(n2Info);
+		});
+		$n3.addEventListener('click', function(ev) {
+		  copyToClipboard(n3Info);
+		});
+		$n4.addEventListener('click', function(ev) {
+		  copyToClipboard(n4Info);
+		});
+		$n5.addEventListener('click', function(ev) {
+		  copyToClipboard(n5Info);
+		});
+		$n6.addEventListener('click', function(ev) {
+		  copyToClipboard(n6Info);
+		});
+		$n7.addEventListener('click', function(ev) {
+		  copyToClipboard(n7Info);
+		});
+		$n8.addEventListener('click', function(ev) {
+		  copyToClipboard(n8Info);
+		});
+		$n9.addEventListener('click', function(ev) {
+		  copyToClipboard(n9Info);
+		});
+		$n10.addEventListener('click', function(ev) {
+		  copyToClipboard(n10Info);
+		});
+		$n11.addEventListener('click', function(ev) {
+		  copyToClipboard(n11Info);
+		});
+		$n12.addEventListener('click', function(ev) {
+		  copyToClipboard(n12Info);
+		});
+		$n13.addEventListener('click', function(ev) {
+		  copyToClipboard(n13Info);
+		});
+		$n14.addEventListener('click', function(ev) {
+		  copyToClipboard(n14Info);
+		});
+		$n15.addEventListener('click', function(ev) {
+		  copyToClipboard(n15Info);
+		});
+		$n16.addEventListener('click', function(ev) {
+		  copyToClipboard(n16Info);
+		});
+
+		// TRACKING
+
+		var hapagCNT = document.getElementById("hapagCNT");
+		var maerskCNT = document.getElementById("maerskCNT");
+		var cmacgmCNT = document.getElementById("cmacgmCNT");
+		var safmarineCNT = document.getElementById("safmarineCNT");
+		var mscCNT = document.getElementById("mscCNT");
+		var evergreenCNT = document.getElementById("evergreenCNT");
+		hapagCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) htrack(e);
+		});
+		maerskCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) mtrack(e);
+		});
+		cmacgmCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) ctrack(e);
+		});
+		safmarineCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) strack(e);
+		});
+		mscCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) msctrack(e);
+		});
+		evergreenCNT.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) etrack(e);
+		});
+
+		function htrack(e) {
+		      var string1 = "https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html?container="
+		      var string2 = document.getElementById('hapagCNT').value;
+		      var string3 = string1 + string2;
+		      window.open(string3);
+		}
+		function mtrack(e) {
+		      var string1 = "https://www.maersk.com/tracking/#tracking/"
+		      var string2 = document.getElementById('maerskCNT').value;
+		      var string3 = string1 + string2;
+		      window.open(string3);
+		}
+		function ctrack(e) {
+		      var string1 = "https://www.cma-cgm.com/ebusiness/tracking/search?SearchBy=Container&Reference="
+		      var string2 = document.getElementById('cmacgmCNT').value;
+		      var string3 = string1 + string2;
+		      window.open(string3);
+		}
+		function strack(e) {
+		      var string1 = "https://my.safmarine.com/tracking/#tracking?"
+		      var string2 = document.getElementById('safmarineCNT').value;
+		      var string3 = string1 + string2;
+		      window.open(string3);
+		}
+		function msctrack(e) {
+		      var string1 = "http://www.shippingline.org/track/?container="
+		      var string2 = document.getElementById('mscCNT').value;
+		      var string3 = string1 + string2;
+		      var string4 = string3 + "&type=container&line=msc";
+		      window.open(string4);
+		}
+		function etrack(e) {
+		      var string1 = "http://www.shippingline.org/track/?container="
+		      var string2 = document.getElementById('evergreenCNT').value;
+		      var string3 = string1 + string2;
+		      var string4 = string3 + "&type=container&line=evergreen";
+		      window.open(string4);
+		}
+
+	</script>
+	</body>
+</html>

@@ -26,6 +26,45 @@
 		.portal-03 { background-color: #2ecc71; width: 50%; margin: 5px; padding: 10px;}
 		.portals a { text-decoration: none; color: #fff; transition: all .5s;}
 		.portals a:hover {letter-spacing: 2px; transition: all .5s;}
+
+		.tooltip {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.tooltip .tooltiptext {
+		  visibility: hidden;
+		  width: 140px;
+		  background-color: #555;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 6px;
+		  padding: 5px;
+		  position: absolute;
+		  z-index: 1;
+		  bottom: 150%;
+		  left: 50%;
+		  margin-left: -75px;
+		  opacity: 0;
+		  transition: opacity 0.3s;
+		}
+
+		.tooltip .tooltiptext::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  left: 50%;
+		  margin-left: -5px;
+		  border-width: 5px;
+		  border-style: solid;
+		  border-color: #555 transparent transparent transparent;
+		}
+
+		.tooltip:hover .tooltiptext {
+		  visibility: visible;
+		  opacity: 1;
+		}
+		
 	</style>
 	<body>
 		<div class="container">
@@ -48,31 +87,28 @@
 				<a href="https://www.mymsc.com/myMSC/BillofLadingContainer/BillofLadingContainerStatus" target="_blank">MSC</a>
 			</div>
 		</div>
-		<div class="portals">
+
+
+		<input type="text" value="Hello World" id="myInput">
+
+		<button onclick="myFunction()">Copy text</button>
+
+		<!-- <div class="portals">
 			<div class="portal portal-01"><a href="https://outlook.office.com/owa/?realm=sssusainc.com&exsvurl=1&ll-cc=1033&modurl=0" target="_blank">Outlook</a></div>
 			<div class="portal portal-02"><a href="https://server1.vilden.net/cgi-wec/ENMB01I.pgm?USER=1636310523&SCDIVN=US&MODE=DSP" target="_blank">Vilden</a></div>
 			<div class="portal portal-03"><a href="https://www.ilovepdf.com/split_pdf#split,range" target="_blank">Split PDF</a></div>
-		</div>
-
-		<!-- <div class="container">
-			<div class="box box-06">
-				<a href="https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html" target="_blank">Hapag-Lloyd</a>
-			</div>
-			<div class="box box-05">
-				<a href="https://www.maersk.com/?gclid=EAIaIQobChMIvcCjjKmy4gIVDh4rCh0cXgRxEAAYASAAEgJOGvD_BwE&gclsrc=aw.ds" target="_blank">Maersk</a>
-			</div>
-			<div class="box box-04">
-				<a href="https://www.cma-cgm.com/ebusiness/tracking" target="_blank">CMA CGM</a>
-			</div>
-			<div class="box box-03">
-				<a href="https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do" target="_blank">Evergreen</a>
-			</div>
-			<div class="box box-02">
-				<a href="https://www.safmarine.com/" target="_blank">Safmarine</a>
-			</div>
-			<div class="box box-01">
-				<a href="https://www.msc.com/track-a-shipment?agencyPath=mwi" target="_blank">MSC</a>
-			</div>
 		</div> -->
+
+
+		
+		<script>
+		function myFunction() {
+		  var copyText = document.getElementById("myInput");
+		  copyText.select();
+		  document.execCommand("copy");
+		  alert("Copied the text: " + copyText.value);
+		}
+		</script>
+
 	</body>
 </html>
