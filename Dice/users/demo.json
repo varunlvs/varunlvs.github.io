@@ -1,130 +1,130 @@
 [
   {
-    NAME: "SAFMARINE",
-    CATEGORY: "SHIPPING LINE",
-    CONTACT: "",
-    TEL: "866-866-4723",
-    EMAIL: "Export - US.export@safmarine.com",
-    ALTERNATEMAIL: "Import - US.import@safmarine.com"
+    "NAME": "SAFMARINE",
+    "CATEGORY": "SHIPPING LINE",
+    "CONTACT": "",
+    "TEL": "866-866-4723",
+    "EMAIL": "Export - US.export@safmarine.com",
+    "ALTERNATEMAIL": "Import - US.import@safmarine.com"
   },
   {
-    NAME: "MAERSK",
-    CATEGORY: "SHIPPING LINE",
-    CONTACT: "",
-    TEL: "800-321-8807",
-    EMAIL: "Export - US.export@maersk.com",
-    ALTERNATEMAIL: "Import - US.import@maersk.com"
+    "NAME": "MAERSK",
+    "CATEGORY": "SHIPPING LINE",
+    "CONTACT": "",
+    "TEL": "800-321-8807",
+    "EMAIL": "Export - US.export@maersk.com",
+    "ALTERNATEMAIL": "Import - US.import@maersk.com"
   },
   {
-    NAME: "LOGISTICS DYNAMICS",
-    CATEGORY: "TRUKER",
-    CONTACT: "michael burger",
-    TEL: "513-834-2716",
-    EMAIL: "mburger@shipldi.com",
-    ALTERNATEMAIL: ""
+    "NAME": "LOGISTICS DYNAMICS",
+    "CATEGORY": "TRUKER",
+    "CONTACT": "michael burger",
+    "TEL": "513-834-2716",
+    "EMAIL": "mburger@shipldi.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "TOTAL QUALITY LOGISTICS",
-    CATEGORY: "TRUKER",
-    CONTACT: "JUSTIN BURKE",
-    TEL: "323-513-4770",
-    EMAIL: "jlburke@tql.com",
-    ALTERNATEMAIL: ""
+    "NAME": "TOTAL QUALITY LOGISTICS",
+    "CATEGORY": "TRUKER",
+    "CONTACT": "JUSTIN BURKE",
+    "TEL": "323-513-4770",
+    "EMAIL": "jlburke@tql.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "FREIGHT QUOTE",
-    CATEGORY: "TRUKER",
-    CONTACT: "Chaz Langeneckert",
-    TEL: "816.949.6202",
-    EMAIL: "chaz.langeneckert@freightquote.com",
-    ALTERNATEMAIL: ""
+    "NAME": "FREIGHT QUOTE",
+    "CATEGORY": "TRUKER",
+    "CONTACT": "Chaz Langeneckert",
+    "TEL": "816.949.6202",
+    "EMAIL": "chaz.langeneckert@freightquote.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "VILDEN",
-    CATEGORY: "SOFTWARE",
-    CONTACT: "ADAM",
-    TEL: "562-513-5756",
-    EMAIL: "support@vilden.com",
-    ALTERNATEMAIL: ""
+    "NAME": "VILDEN",
+    "CATEGORY": "SOFTWARE",
+    "CONTACT": "ADAM",
+    "TEL": "562-513-5756",
+    "EMAIL": "support@vilden.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "TRANSCONTINENTAL",
-    CATEGORY: "CLIENT",
-    CONTACT: "ABID",
-    TEL: "713-822-8578",
-    EMAIL: "a.h@transcon.us",
-    ALTERNATEMAIL: ""
+    "NAME": "TRANSCONTINENTAL",
+    "CATEGORY": "CLIENT",
+    "CONTACT": "ABID",
+    "TEL": "713-822-8578",
+    "EMAIL": "a.h@transcon.us",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "WELSET AMERICAS",
-    CATEGORY: "CLIENT",
-    CONTACT: "VENKAT",
-    TEL: "978-406-7056",
-    EMAIL: "venkat@welsetamericas.com",
-    ALTERNATEMAIL: ""
+    "NAME": "WELSET AMERICAS",
+    "CATEGORY": "CLIENT",
+    "CONTACT": "VENKAT",
+    "TEL": "978-406-7056",
+    "EMAIL": "venkat@welsetamericas.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "RESHAPE LIFESCIENCE",
-    CATEGORY: "CLIENT",
-    CONTACT: "VIPUL SHAH",
-    TEL: "949-290-9433",
-    EMAIL: "vshah@reshapelifesci.com",
-    ALTERNATEMAIL: ""
+    "NAME": "RESHAPE LIFESCIENCE",
+    "CATEGORY": "CLIENT",
+    "CONTACT": "VIPUL SHAH",
+    "TEL": "949-290-9433",
+    "EMAIL": "vshah@reshapelifesci.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "APM TERMINAL NEWARK",
-    CATEGORY: "TERMINAL",
-    CONTACT: "",
-    TEL: "866-855-8552",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "APM TERMINAL NEWARK",
+    "CATEGORY": "TERMINAL",
+    "CONTACT": "",
+    "TEL": "866-855-8552",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "HAPAG - EAST COAST",
-    CATEGORY: "SHIPPING LINE",
-    CONTACT: "",
-    TEL: "855-227-4612",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "HAPAG - EAST COAST",
+    "CATEGORY": "SHIPPING LINE",
+    "CONTACT": "",
+    "TEL": "855-227-4612",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "THREADMAKER APPAREL",
-    CATEGORY: "CLIENT",
-    CONTACT: "JOEL ANG",
-    TEL: "626-278-4904",
-    EMAIL: "threadmakerapparel@gmail.com",
-    ALTERNATEMAIL: ""
+    "NAME": "THREADMAKER APPAREL",
+    "CATEGORY": "CLIENT",
+    "CONTACT": "JOEL ANG",
+    "TEL": "626-278-4904",
+    "EMAIL": "threadmakerapparel@gmail.com",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "HAPAG - WEST COAST",
-    CATEGORY: "SHIPPING LINE",
-    CONTACT: "",
-    TEL: "888-513-2180 ",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "HAPAG - WEST COAST",
+    "CATEGORY": "SHIPPING LINE",
+    "CONTACT": "",
+    "TEL": "888-513-2180 ",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "EVERGREEN",
-    CATEGORY: "SHIPPING LINE",
-    CONTACT: "",
-    TEL: "714-822-6800",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "EVERGREEN",
+    "CATEGORY": "SHIPPING LINE",
+    "CONTACT": "",
+    "TEL": "714-822-6800",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "HALEX",
-    CATEGORY: "CLIENT",
-    CONTACT: "PENNIE HICKS",
-    TEL: "260-488-3531 / EXT: 2119",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "HALEX",
+    "CATEGORY": "CLIENT",
+    "CONTACT": "PENNIE HICKS",
+    "TEL": "260-488-3531 / EXT: 2119",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   },
   {
-    NAME: "APAC",
-    CATEGORY: "TRUKER",
-    CONTACT: "JAMIL / DAVID",
-    TEL: "832-405-7032 / (281) 888-5114 / EXT: 510",
-    EMAIL: "",
-    ALTERNATEMAIL: ""
+    "NAME": "APAC",
+    "CATEGORY": "TRUKER",
+    "CONTACT": "JAMIL / DAVID",
+    "TEL": "832-405-7032 / (281) 888-5114 / EXT: 510",
+    "EMAIL": "",
+    "ALTERNATEMAIL": ""
   }
 ]
