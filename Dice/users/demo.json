@@ -3,128 +3,129 @@
     "NAME": "SAFMARINE",
     "CATEGORY": "SHIPPING LINE",
     "CONTACT": "",
-    "TEL": "866-866-4723",
-    "EMAIL": "Export - US.export@safmarine.com",
-    "ALTERNATEMAIL": "Import - US.import@safmarine.com"
+    "TEL": "TEL : 866-866-4723",
+    "EMAIL": "E: Export - US.export@safmarine.com",
+    "ALTERNATE EMAIL": "E: import - US.import@safmarine.com"
   },
   {
     "NAME": "MAERSK",
     "CATEGORY": "SHIPPING LINE",
     "CONTACT": "",
-    "TEL": "800-321-8807",
-    "EMAIL": "Export - US.export@maersk.com",
-    "ALTERNATEMAIL": "Import - US.import@maersk.com"
+    "TEL": "TEL: 800-321-8807",
+    "EMAIL": "E: Export - US.export@maersk.com",
+    "ALTERNATE EMAIL": "E: Import - US.import@maersk.com"
   },
   {
     "NAME": "LOGISTICS DYNAMICS",
     "CATEGORY": "TRUKER",
-    "CONTACT": "michael burger",
-    "TEL": "513-834-2716",
-    "EMAIL": "mburger@shipldi.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: MICHAEL BURGER",
+    "TEL": "TEL : 513-834-2716",
+    "EMAIL": "EMAIL : mburger@shipldi.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "TOTAL QUALITY LOGISTICS",
     "CATEGORY": "TRUKER",
-    "CONTACT": "JUSTIN BURKE",
-    "TEL": "323-513-4770",
-    "EMAIL": "jlburke@tql.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: JUSTIN BURKE",
+    "TEL": "TEL : 323-513-4770",
+    "EMAIL": "EMAIL:jlburke@tql.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "FREIGHT QUOTE",
     "CATEGORY": "TRUKER",
-    "CONTACT": "Chaz Langeneckert",
-    "TEL": "816.949.6202",
-    "EMAIL": "chaz.langeneckert@freightquote.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: Chaz Langeneckert",
+    "TEL": "TEL: 816.949.6202",
+    "EMAIL": "EMAIL: chaz.langeneckert@freightquote.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "VILDEN",
     "CATEGORY": "SOFTWARE",
-    "CONTACT": "ADAM",
-    "TEL": "562-513-5756",
-    "EMAIL": "support@vilden.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: ADAM",
+    "TEL": "TEL: 562-513-5756",
+    "EMAIL": "EMAIL: support@vilden.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "TRANSCONTINENTAL",
     "CATEGORY": "CLIENT",
-    "CONTACT": "ABID",
-    "TEL": "713-822-8578",
-    "EMAIL": "a.h@transcon.us",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: ABID",
+    "TEL": "TEL: 713-822-8578",
+    "EMAIL": "EMAIL: a.h@transcon.us",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "WELSET AMERICAS",
     "CATEGORY": "CLIENT",
-    "CONTACT": "VENKAT",
-    "TEL": "978-406-7056",
-    "EMAIL": "venkat@welsetamericas.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: VENKAT",
+    "TEL": "TEL: 978-406-7056",
+    "EMAIL": "EMAIL: venkat@welsetamericas.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "RESHAPE LIFESCIENCE",
     "CATEGORY": "CLIENT",
-    "CONTACT": "VIPUL SHAH",
-    "TEL": "949-290-9433",
-    "EMAIL": "vshah@reshapelifesci.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: VIPUL SHAH",
+    "TEL": "TEL: 949-290-9433",
+    "EMAIL": "EMAIL: vshah@reshapelifesci.com",
+    "ALTERNATE EMAIL": ""
   },
   {
-    "NAME": "APM TERMINAL NEWARK",
-    "CATEGORY": "TERMINAL",
-    "CONTACT": "",
-    "TEL": "866-855-8552",
-    "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "NAME": "APM TERMINAL ",
+    "CATEGORY": " NEWARK",
+    "CONTACT": "TERMINAL",
+    "TEL": "",
+    "EMAIL": "TEL: 866-855-8552",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "HAPAG - EAST COAST",
     "CATEGORY": "SHIPPING LINE",
     "CONTACT": "",
-    "TEL": "855-227-4612",
+    "TEL": "TEL: 855-227-4612",
     "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "THREADMAKER APPAREL",
     "CATEGORY": "CLIENT",
-    "CONTACT": "JOEL ANG",
-    "TEL": "626-278-4904",
-    "EMAIL": "threadmakerapparel@gmail.com",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: JOEL ANG",
+    "TEL": "TEL: 626-278-4904",
+    "EMAIL": "EMAIL: threadmakerapparel@gmail.com",
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "HAPAG - WEST COAST",
     "CATEGORY": "SHIPPING LINE",
     "CONTACT": "",
-    "TEL": "888-513-2180 ",
+    "TEL": "TEL: 888-513-2180 ",
     "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "EVERGREEN",
     "CATEGORY": "SHIPPING LINE",
     "CONTACT": "",
-    "TEL": "714-822-6800",
+    "TEL": "TEL: 714-822-6800",
     "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "ALTERNATE EMAIL": ""
   },
   {
-    "NAME": "HALEX",
+    "NAME": "HALEX ",
     "CATEGORY": "CLIENT",
-    "CONTACT": "PENNIE HICKS",
-    "TEL": "260-488-3531 / EXT: 2119",
+    "CONTACT": "CTC: PENNIE HICKS",
+    "TEL": "TEL: 260-488-3531 / EXT: 2119",
     "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "ALTERNATE EMAIL": ""
   },
   {
     "NAME": "APAC",
     "CATEGORY": "TRUKER",
-    "CONTACT": "JAMIL / DAVID",
-    "TEL": "832-405-7032 / (281) 888-5114 / EXT: 510",
-    "EMAIL": "",
-    "ALTERNATEMAIL": ""
+    "CONTACT": "CTC: JAMIL / DAVID",
+    "TEL": "TEL: 832-405-7032 / (281) 888-5114 EXT. 510"
+  },
+  {
+    "NAME": ""
   }
 ]
