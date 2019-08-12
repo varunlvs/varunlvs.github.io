@@ -1200,7 +1200,8 @@ figure img {
 
 .tracking {
 	/*background-color: tomato;*/
-	height: 80vh;
+	height: auto;
+	margin: 20px 0;
 }
 
 .carriers {
@@ -1213,8 +1214,25 @@ figure img {
 	margin: 70px 0;
 }
 
+.carriers button {
+	width: 150px;
+	text-align: center;
+}
+
+.carriers-air {
+	flex-wrap: wrap;
+	margin: 50px 0;
+}
+
+.carrier-air-name {
+	border: 2px solid #333;
+	padding: 5px;
+	text-align: center;
+}
+
 .carrier-item {
 	/*background-color: lightseagreen;*/
+	width: 200px;
 }
 
 button:focus {

@@ -130,6 +130,66 @@
 			</div>
 		</div>
 	</section>
+	<br>
+	<hr>
+	<br>
+	<section class="tracking" id="track">
+		<div class="container">
+			<h3 class="center">Air Tracking</h3>
+			<h5>How it works</h5>
+			<ul>
+				<li>Air cargo numbers have the format 123-12345678</li>
+				<li>We use the first 3 digits to automatically send the request to the correct airlines</li>
+				<li>Paste the <span class="container-number">MAWB</span> in the input and press enter or search</li>
+			</ul>
+			<div id="air-tracking" class="center container-tracking">
+				<p class="ct-item">Track your <span class="carrier-name">Air Shipment</span> here</p>
+					<input type="text" placeholder="ABC-XXXX XXXX" id='air-track'>
+					<input type="button" class="button-primaryz" value="Search" id='air-track-btn'>
+			</div>
+			<br>
+			<h5>Supporting Airlines</h5>
+			<div class="carriers carriers-air">
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="hapag-btn">403 - Polar Air Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="maersk-btn">125 - IAG Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="cma-btn">057 / 074 - AFKL Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="safmarine-btn">180 - Korean Air Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="msc-btn">160 - Cathay Pacific Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="evergreen-btn">932 - Virgin Atlantic</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="hapag-btn">176 - Emirates Sky Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="maersk-btn">695 - EVA Air Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="cma-btn">157 - QATAR Airways</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="safmarine-btn">235 - Turkish Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="msc-btn">615 - Aviation Cargo</p>
+				</div>
+				<div class="carrier-item">
+					<p class="carrier-air-name" id="evergreen-btn">071 - Cargo Update</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
 
 	<section class="downloads">
 		<div class="container">
@@ -206,8 +266,7 @@
 					<h3>United States</h3>
 					<hr class="separator">
 					<p>212 Technology Dr, Irvine, CA 92618, USA</p>
-				</div>
-				
+				</div>				
 			</div>
 			<div class="location-right">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.602981460018!2d-117.75130008479509!3d33.66744768071235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd457de609fd%3A0xb16745dea5b8da1c!2s212+Technology+Dr%2C+Irvine%2C+CA+92618%2C+USA!5e0!3m2!1sen!2sin!4v1564655231940!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -362,6 +421,95 @@
 		var safmarineCNT = document.getElementById("safmarineCNT");
 		var mscCNT = document.getElementById("mscCNT");
 		var evergreenCNT = document.getElementById("evergreenCNT");
+
+		var airTrack = document.getElementById("air-track");
+		var airTrackBtn = document.getElementById("air-track-btn");
+		airTrack.addEventListener("keydown", function (e) {
+			if(e.keyCode === 13) atrack(e);
+			console.log("Air Tracking");
+		});
+		airTrackBtn.addEventListener("click", function (e) {
+			console.log('Air Tracking Button')
+		});
+
+		function atrack(e) {
+		      var mawb = document.getElementById('air-track').value;
+		      let searchKeyword = mawb.toString().replace(/\s+/g, "").replace("-", "");
+		      console.log(searchKeyword);
+
+		      if (searchKeyword.length === 11) {
+		        let airSCAC = searchKeyword.slice(0, 3);
+		        let airBL = searchKeyword.slice(3, 11);
+		        if (airSCAC === "125") {
+		          let huntContainer = `https://www.iagcargo.com/iagcargo/portlet/en/html/601/main/search?awb.cia=${airSCAC}&awb.cod=${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "057") {
+		          let huntContainer = `https://www.afklcargo.com/WW/en/local/app/index.jsp#/tntdetails/${airSCAC}-${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "403") {
+		          let huntContainer = `http://www.polaraircargo.com/TrackAndTraceUI/WebForm1.aspx?pe=${airSCAC}&se=${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "074") {
+		          let huntContainer = `https://www.afklcargo.com/WW/en/local/app/index.jsp#/tntdetails/${airSCAC}-${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "160") {
+		          let huntContainer = `https://www.cathaypacificcargo.com/ManageYourShipment/TrackYourShipment/tabid/108/SingleAWBNo/${airSCAC}-${airBL}/language/en-US/Default.aspx`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "932") {
+		          let huntContainer = `https://cargo.virgin-atlantic.com/gb/en/track/track-your-cargo.html?prefix=${airSCAC}&number=${airBL}&track=go`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "618") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "837") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "176") {
+		          console.log("Comp works " + airSCAC);
+		          // https://skychain.emirates.com/skychain/app?PID=WEB01-10&doc_typ=AWB&awb_pre=${airSCAC}&awb_no=${airBL}
+		          let huntContainer = `https://skychain.emirates.com/skychain/app?PID=WEB01-10&doc_typ=AWB&awb_pre=${airSCAC}&awb_no=${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "695") {
+		          let huntContainer = `https://www.brcargo.com/ec_web/Default.aspx?Parm2=191&Parm3=?TNT_FLAG=Y&AWB_CODE=${airSCAC}&MAWB_NUMBER=${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "157") {
+		          let huntContainer = `https://www.brcargo.com/ec_web/Default.aspx?Parm2=191&Parm3=?TNT_FLAG=Y&AWB_CODE=${airSCAC}&MAWB_NUMBER=${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "406") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "417") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "098") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "235") {
+		          console.log("Comp works " + airSCAC);
+		          // https://www.turkishcargo.com.tr/en/online-services/shipment-tracking?quick=True&awbInput=235-38623933
+		          let huntContainer = `https://www.turkishcargo.com.tr/en/online-services/shipment-tracking?quick=True&awbInput=${airSCAC}-${airBL}`;
+		          window.open(huntContainer.toString());
+		        } else if (airSCAC === "580") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "615") {
+		        	// https://aviationcargo.dhl.com/aviationcargo/track/61525074416
+		        	let huntContainer = `https://aviationcargo.dhl.com/aviationcargo/track/${airSCAC}${airBL}`;
+		          window.open(huntContainer.toString());
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "071") {
+		        	let huntContainer = `https://www.cargoupdate.com/tracktrace/default.aspx?carrier=ET&awbs=${airSCAC}-${airBL}`;
+		          	window.open(huntContainer.toString());
+		        	// https://www.cargoupdate.com/tracktrace/default.aspx?carrier=ET&awbs=${airSCAC}-${airBL}
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "180") {
+		        	// https://cargo.koreanair.com/en/tracking?awbNO=18042419926
+		        	let huntContainer = `https://cargo.koreanair.com/en/tracking?awbNO=${airSCAC}${airBL}`;
+		          	window.open(huntContainer.toString());
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "724") {
+		          console.log("Comp works " + airSCAC);
+		        } else if (airSCAC === "695") {
+		          console.log("Comp works " + airSCAC);
+		        }
+		      }
+		}
+
+
 		hapagCNT.addEventListener("keydown", function (e) {
 			if(e.keyCode === 13) htrack(e);
 		});
