@@ -28,7 +28,7 @@
 .sub-container-right {
 	display: flex;
 	justify-content: flex-end;
-	width: 73%;
+	width: 100%;
 	background-color: transparent;
 }
 .box {
