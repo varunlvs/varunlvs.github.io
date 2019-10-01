@@ -110,3 +110,16 @@ span {
 	/*margin: 20px;*/
 	background-color: transparent;
 }
+
+button.navbtn {
+	padding: 10px 20px;
+	width: 200px;
+	/*background: transparent;*/
+	outline: none;
+}
+
+button.navbtn:focus {
+	background-color: steelblue;
+	border: none;
+	color: #fff;
+}

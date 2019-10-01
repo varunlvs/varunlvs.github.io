@@ -1,4 +1,6 @@
-const colorBox = ['#34495e','#6a00ff','#e74c3c','#3498db','#2ecc71','#f1c40f','#03A9F4','#192a56','#e67e22','#825a2c','#006064','#BDC581'];
+const colorBox = ['#34495e','#6a00ff','#e74c3c','#3498db','#2ecc71','#f1c40f',
+				  '#03A9F4','#192a56','#e67e22','#825a2c','#006064','#BDC581',
+				  '#40407a','#ff5252','#33d9b2','#d1ccc0','#ffb142','#38ada9'];
 
 const svg = d3.select('svg');
 
@@ -65,20 +67,17 @@ let i = 0;
 
 d3.csv('data.csv').then(data => data.forEach(d => {
 	const totalShipments = +d.shipments;
-	const percent = (((totalShipments / dataCount) * 100).toFixed(2)).toString();
-	console.log(percent);
-	percentageInfo = `${percentageInfo} ${d.agent}: ${percent}\n`;
-	d3.select('.percentage').text(percentageInfo);
+	const percent = Number((((totalShipments / dataCount) * 100).toFixed(2)).toString());
 
 	d3.select('.agents-list').append('button')
-		.text(`${d.agent} : ${d.shipments / dataCount * 100}%`)
-		.style('width', '200px')
+		.text(`${d.agent} : ${percent}%`)
+		.style('width', '250px')
 		.style('background-color', colorBox[i])
 		.style('color', '#eee')
 		.style('font-size', '15px')
 		.style('border', 'none')
 		.style('outline', 'none')
-		.style('text-align', 'justify')
+		.style('text-align', 'left')
 		.style('padding', '20px 10px');
 		i++;
 }));
