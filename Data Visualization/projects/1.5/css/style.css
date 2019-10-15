@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	width: 75%;
+	height: 75vh;
+	/*background-color: tomato;*/
+	border: 2px solid slateblue;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 100px;
+}

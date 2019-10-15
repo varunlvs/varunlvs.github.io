@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+rect {
+	fill: steelblue;
+}
+
+text {
+	font-size: 1.2em;
+}
+
+p {
+	width: 85%;
+	margin: 30px auto;
+}
+
+span {
+	font-weight: bold;
+	color: steelblue;
+	font-size: 1.1em;
+}
+
+h1 {
+	font-weight: 300;
+	text-align: center;
+}
+
+.container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.info {
+	background-color: #eee;
+	padding: 30px;
+	width: auto;
+}
+
+pre {
+	font-size: 1.5em;
+}

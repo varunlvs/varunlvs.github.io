@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Gapminder</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- D3 tooltip -->
+    <link rel="stylesheet" href="css/d3-tip.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#"><span class="lead">Gapminder</span></a>       -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <button id="play-button" class="btn btn-primary">Play</button>
+                <button id="reset-button" class="btn btn-primary">Reset</button>
+            </div>
+            <div class="col-md-4">
+                <div id="slider-div">
+                    <label>Year: <span id="year">1800</span></label>
+                    <div id="date-slider"></div>
+                </div>                    
+            </div>
+            <div class="col-md-4">
+                <select id="continent-select" class="form-control">
+                    <option selected value="all">All</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>
+        </div>
+    </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.js"></script>
+<script src="js/d3-tip.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ecf0f1;
+}
+
+.container {
+	background-color: #ecf0f1;
+	width: 75%;
+	height: 75vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
