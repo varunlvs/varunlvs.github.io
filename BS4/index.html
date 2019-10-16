@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<div id="utilities" class="container">
+	<div id="utilities" class="container my-5">
 		
 		<h1 class="display-4">Display</h1>
 		<ul class="list-inline">
@@ -463,6 +463,101 @@
 				<ul class="list-inline">
 					<li class="list-inline-item bg-dark text-light m-1 p-1">Large Desktops - Extra Large Devices</li>
 					<li class="list-inline-item">@media( min-width: 1200px ) { ... }</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<hr>
+	</div>
+	
+	<div id="css" class="container my-5">
+		<h1 class="display-4">Buttons</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Buttons</li>
+					<li class="list-inline-item">button:button.btn.btn-primary</li>
+					<li class="list-inline-item">button:button.btn.btn-secondary</li>
+					<li class="list-inline-item">button:button.btn.btn-info</li>
+					<li class="list-inline-item">button:button.btn.btn-success</li>
+					<li class="list-inline-item">button:button.btn.btn-dark</li>
+					<li class="list-inline-item">button:button.btn.btn-light</li>
+					<li class="list-inline-item">button:button.btn.btn-warning</li>
+					<li class="list-inline-item">button:button.btn.btn-danger</li>
+					<li class="list-inline-item">button:button.btn.btn-link</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Tags & Types</li>
+					<li class="list-inline-item">a:role=button.btn.btn-primary</li>
+					<li class="list-inline-item">button:submit.btn.btn-success</li>
+					<li class="list-inline-item">input:button:value=input.btn.btn-light</li>
+					<li class="list-inline-item">input:submit:value=Submit.btn.btn-warning</li>
+					<li class="list-inline-item">input:reset:value=Reset.btn.btn-info</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Buttons Outline</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-primary</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-secondary</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-info</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-success</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-dark</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-light</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-warning</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-danger</li>
+					<li class="list-inline-item">button:button.btn.btn-outline-link</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Sizes</li>
+					<li class="list-inline-item">button:button.btn.btn-primary.btn-lg</li>
+					<li class="list-inline-item">button:button.btn.btn-success.btn-sm</li>
+					<li class="list-inline-item">button:button.btn.btn-dark.btn-block</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button States</li>
+					<li class="list-inline-item">button:button.btn.btn-primary</li>
+					<li class="list-inline-item">button:button.btn.btn-success.active</li>
+					<li class="list-inline-item">button:button.btn.btn-dark.disabled</li>
+					<li class="list-inline-item">button:button:data-toggle=button.btn.btn-info</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Group</li>
+					<li class="list-inline-item">.btn-group>(button:button.btn.btn-primary)*n</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Toolbar</li>
+					<li class="list-inline-item">.btn-toolbar>(.btn-group.mr-2>Buttons*n)*n</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Group Vertical</li>
+					<li class="list-inline-item">.btn-group-vertical>Buttons*n</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Button Dropdown</li>
+					<li class="list-inline-item">.dropdown>(button:button:data-toggle=dropdown.btn.btn-primary.dropdown-toggle)+(.dropdown-menu>(a.dropdown-item*3))</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">Split Dropdown</li>
+					<li class="list-inline-item">.btn-group>(button+button:button:data-toggle=dropdown.btn.btn-primary.dropdown-toggle)+(.dropdown-menu>(a.dropdown-item*3+.dropdown-divider))</li>
 				</ul>
 			</li>
 		</ul>
