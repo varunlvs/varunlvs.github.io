@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Cheatsheet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+
+	<div id="utilities" class="container">
+		
+		<h1 class="display-4">Display</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">display-1</li>
+			<li class="list-inline-item">display-2</li>
+			<li class="list-inline-item">display-3</li>
+			<li class="list-inline-item">display-4</li>
+		</ul>
+
+		<p class="display-4">Heading</p>
+		<ul class="list-inline">
+			<li class="list-inline-item">h1</li>
+			<li class="list-inline-item">h2</li>
+			<li class="list-inline-item">h3</li>
+			<li class="list-inline-item">h4</li>
+			<li class="list-inline-item">h5</li>
+			<li class="list-inline-item">h6</li>
+			<li class="list-inline-item bg-light p-1">can also be used as class</li>
+		</ul>
+
+		<h1 class="display-4">Paragraph Styling</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">lead</li>
+			<li class="list-inline-item">text-monospace</li>
+			<li class="list-inline-item bg-light p-1">no class - just p tag</li>
+		</ul>
+
+		<h1 class="display-4">Word Styling</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">font-weight-bold</li>
+			<li class="list-inline-item">font-weight-normal</li>
+			<li class="list-inline-item">font-italic</li>
+		</ul>
+
+		<h1 class="display-4">Text Transforms</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">text-uppercase</li>
+			<li class="list-inline-item">text-lowercase</li>
+			<li class="list-inline-item">text-capitalize</li>
+			<li class="list-inline-item">text-truncate</li>
+		</ul>
+
+		<h1 class="display-4">Blockquote</h1>
+		<p class="bg-light">blockquote.blockquote.text-right>p[content]+footer.blockquote-footer[content]>cite:title[content]</p>
+
+		<!-- 
+				<blockquote class="blockquote text-right">
+					<p>Why so serious</p>
+					<footer class="blockquote-footer">Sayings from
+						<cite title="Joker">Joker</cite>
+					</footer>
+				</blockquote>
+		--->	
+	
+		<h1 class="display-4">List</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item bg-light">ul.list-inline>li.list-inline-item*n</li>
+			<li class="list-inline-item bg-light">ul.list-unstyled>li*n</li>
+		</ul>
+	
+		<h1 class="display-4">Text Alignment</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">text-left</li>
+			<li class="list-inline-item">text-right</li>
+			<li class="list-inline-item">text-center</li>
+			<li class="list-inline-item">text-justify</li>
+		</ul>
+
+		<h1 class="display-4">Responsive Text Alignment</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Small or Larger</li>
+					<li class="list-inline-item">text-sm-right</li>
+					<li class="list-inline-item">text-sm-left</li>
+					<li class="list-inline-item">text-sm-center</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Medium or Larger</li>
+					<li class="list-inline-item">text-md-right</li>
+					<li class="list-inline-item">text-md-left</li>
+					<li class="list-inline-item">text-md-center</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Large or Larger</li>
+					<li class="list-inline-item">text-lg-right</li>
+					<li class="list-inline-item">text-lg-left</li>
+					<li class="list-inline-item">text-lg-center</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On ExtraLarge or Larger</li>
+					<li class="list-inline-item">text-xl-right</li>
+					<li class="list-inline-item">text-xl-left</li>
+					<li class="list-inline-item">text-xl-center</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Block Display</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">d-inline</li>
+			<li class="list-inline-item">d-block</li>
+			<li class="list-inline-item">d-inline-block</li>
+		</ul>
+
+		<h1 class="display-4">Floats</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">float-left</li>
+			<li class="list-inline-item">float-right</li>
+			<li class="list-inline-item">float-none</li>
+		</ul>
+
+		<h1 class="display-4">Responsive Floats</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Small or Wider</li>
+					<li class="list-inline-item">float-sm-right</li>
+					<li class="list-inline-item">float-sm-left</li>
+					<li class="list-inline-item">float-sm-none</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Medium or Wider</li>
+					<li class="list-inline-item">float-md-right</li>
+					<li class="list-inline-item">float-md-left</li>
+					<li class="list-inline-item">float-md-none</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On Large or Wider</li>
+					<li class="list-inline-item">float-lg-right</li>
+					<li class="list-inline-item">float-lg-left</li>
+					<li class="list-inline-item">float-lg-none</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-white m-1 p-1">On ExtraLarge or Wider</li>
+					<li class="list-inline-item">float-xl-right</li>
+					<li class="list-inline-item">float-xl-left</li>
+					<li class="list-inline-item">float-xl-none</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Clearfix</h1>
+		<p>.clearfix>.float-left+.float-right</p>
+
+		<h1 class="display-4">Text Colors</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">p.invisible</li>
+			<li class="list-inline-item">p.text-primary</li>
+			<li class="list-inline-item">p.text-secondary</li>
+			<li class="list-inline-item">p.text-info</li>
+			<li class="list-inline-item">p.text-success</li>
+			<li class="list-inline-item">p.text-warning</li>
+			<li class="list-inline-item">p.text-danger</li>
+			<li class="list-inline-item">p.text-light</li>
+			<li class="list-inline-item">p.text-dark</li>
+			<li class="list-inline-item">p.text-white</li>
+			<li class="list-inline-item">p.text-muted</li>
+			<li class="list-inline-item">p.text-black-50</li>
+			<li class="list-inline-item">p.text-white-50</li>
+		</ul>
+
+		<h1 class="display-4">Link Colors</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">p>a.text-primary</li>
+			<li class="list-inline-item">p>a.text-secondary</li>
+			<li class="list-inline-item">p>a.text-info</li>
+			<li class="list-inline-item">p>a.text-success</li>
+			<li class="list-inline-item">p>a.text-warning</li>
+			<li class="list-inline-item">p>a.text-danger</li>
+			<li class="list-inline-item">p>a.text-light</li>
+			<li class="list-inline-item">p>a.text-dark</li>
+			<li class="list-inline-item">p>a.text-white</li>
+			<li class="list-inline-item">p>a.text-muted</li>
+		</ul>
+
+		<h1 class="display-4">Background Colors</h1>
+		<ul class="list-inline">
+			<li class="list-inline-item">bg-transparent</li>
+			<li class="list-inline-item">bg-primary.text-white</li>
+			<li class="list-inline-item">bg-secondary</li>
+			<li class="list-inline-item">bg-info</li>
+			<li class="list-inline-item">bg-success</li>
+			<li class="list-inline-item">bg-warning</li>
+			<li class="list-inline-item">bg-danger</li>
+			<li class="list-inline-item">bg-light</li>
+			<li class="list-inline-item">bg-dark.text-light</li>
+			<li class="list-inline-item">bg-white</li>
+		</ul>
+
+		<h1 class="display-4">Margin</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Overall</li>
+					<li class="list-inline-item">m-0</li>
+					<li class="list-inline-item">m-1</li>
+					<li class="list-inline-item">m-2</li>
+					<li class="list-inline-item">m-3</li>
+					<li class="list-inline-item">m-4</li>
+					<li class="list-inline-item">m-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Left</li>
+					<li class="list-inline-item">ml-0</li>
+					<li class="list-inline-item">ml-1</li>
+					<li class="list-inline-item">ml-2</li>
+					<li class="list-inline-item">ml-3</li>
+					<li class="list-inline-item">ml-4</li>
+					<li class="list-inline-item">ml-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Right</li>
+					<li class="list-inline-item">mr-0</li>
+					<li class="list-inline-item">mr-1</li>
+					<li class="list-inline-item">mr-2</li>
+					<li class="list-inline-item">mr-3</li>
+					<li class="list-inline-item">mr-4</li>
+					<li class="list-inline-item">mr-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Top</li>
+					<li class="list-inline-item">mt-0</li>
+					<li class="list-inline-item">mt-1</li>
+					<li class="list-inline-item">mt-2</li>
+					<li class="list-inline-item">mt-3</li>
+					<li class="list-inline-item">mt-4</li>
+					<li class="list-inline-item">mt-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Bottom</li>
+					<li class="list-inline-item">mb-0</li>
+					<li class="list-inline-item">mb-1</li>
+					<li class="list-inline-item">mb-2</li>
+					<li class="list-inline-item">mb-3</li>
+					<li class="list-inline-item">mb-4</li>
+					<li class="list-inline-item">mb-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Horizontal & Vertical Margin</li>
+					<li class="list-inline-item">mx-0</li>
+					<li class="list-inline-item">mx-1</li>
+					<li class="list-inline-item">mx-2</li>
+					<li class="list-inline-item">mx-3</li>
+					<li class="list-inline-item">mx-4</li>
+					<li class="list-inline-item">mx-5</li>
+					<li class="list-inline-item">my-0</li>
+					<li class="list-inline-item">my-1</li>
+					<li class="list-inline-item">my-2</li>
+					<li class="list-inline-item">my-3</li>
+					<li class="list-inline-item">my-4</li>
+					<li class="list-inline-item">my-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Horizontal Centering</li>
+					<li class="list-inline-item">mx-auto</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Padding</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Overall</li>
+					<li class="list-inline-item">p-0</li>
+					<li class="list-inline-item">p-1</li>
+					<li class="list-inline-item">p-2</li>
+					<li class="list-inline-item">p-3</li>
+					<li class="list-inline-item">p-4</li>
+					<li class="list-inline-item">p-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Left</li>
+					<li class="list-inline-item">pl-0</li>
+					<li class="list-inline-item">pl-1</li>
+					<li class="list-inline-item">pl-2</li>
+					<li class="list-inline-item">pl-3</li>
+					<li class="list-inline-item">pl-4</li>
+					<li class="list-inline-item">pl-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Right</li>
+					<li class="list-inline-item">pr-0</li>
+					<li class="list-inline-item">pr-1</li>
+					<li class="list-inline-item">pr-2</li>
+					<li class="list-inline-item">pr-3</li>
+					<li class="list-inline-item">pr-4</li>
+					<li class="list-inline-item">pr-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Top</li>
+					<li class="list-inline-item">pt-0</li>
+					<li class="list-inline-item">pt-1</li>
+					<li class="list-inline-item">pt-2</li>
+					<li class="list-inline-item">pt-3</li>
+					<li class="list-inline-item">pt-4</li>
+					<li class="list-inline-item">pt-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Bottom</li>
+					<li class="list-inline-item">pb-0</li>
+					<li class="list-inline-item">pb-1</li>
+					<li class="list-inline-item">pb-2</li>
+					<li class="list-inline-item">pb-3</li>
+					<li class="list-inline-item">pb-4</li>
+					<li class="list-inline-item">pb-5</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Horizontal & Vertical Margin</li>
+					<li class="list-inline-item">px-0</li>
+					<li class="list-inline-item">px-1</li>
+					<li class="list-inline-item">px-2</li>
+					<li class="list-inline-item">px-3</li>
+					<li class="list-inline-item">px-4</li>
+					<li class="list-inline-item">px-5</li>
+					<li class="list-inline-item">py-0</li>
+					<li class="list-inline-item">py-1</li>
+					<li class="list-inline-item">py-2</li>
+					<li class="list-inline-item">py-3</li>
+					<li class="list-inline-item">py-4</li>
+					<li class="list-inline-item">py-5</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Width & Height</h1>
+		<ul class="list-inline">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Width</li>
+					<li class="list-inline-item">w-25</li>
+					<li class="list-inline-item">w-50</li>
+					<li class="list-inline-item">w-75</li>
+					<li class="list-inline-item">w-100</li>
+					<li class="list-inline-item">w-auto</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Height</li>
+					<li class="list-inline-item">h-25</li>
+					<li class="list-inline-item">h-50</li>
+					<li class="list-inline-item">h-75</li>
+					<li class="list-inline-item">h-100</li>
+					<li class="list-inline-item">h-auto</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Borders</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Border</li>
+					<li class="list-inline-item">border</li>
+					<li class="list-inline-item">border-top</li>
+					<li class="list-inline-item">border-bottom</li>
+					<li class="list-inline-item">border-right</li>
+					<li class="list-inline-item">border-left</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Border Colors</li>
+					<li class="list-inline-item">.border.border-primary</li>
+					<li class="list-inline-item">.border.border-secondary</li>
+					<li class="list-inline-item">.border.border-dark</li>
+					<li class="list-inline-item">.border.border-light</li>
+					<li class="list-inline-item">.border.border-info</li>
+					<li class="list-inline-item">.border.border-success</li>
+					<li class="list-inline-item">.border.border-warning</li>
+					<li class="list-inline-item">.border.border-danger</li>
+					<li class="list-inline-item">.border.border-white</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Border Radius</li>
+					<li class="list-inline-item">.border.rounded</li>
+					<li class="list-inline-item">.border.rounded-top</li>
+					<li class="list-inline-item">.border.rounded-bottom</li>
+					<li class="list-inline-item">.border.rounded-left</li>
+					<li class="list-inline-item">.border.rounded-right</li>
+					<li class="list-inline-item">.border.rounded-circle</li>
+					<li class="list-inline-item">.border.rounded-0</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 class="display-4">Breakpoints</h1>
+		<ul class="list-unstyled">
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Portrait Mobile - Extra Small Devices</li>
+					<li class="list-inline-item">@media( max-width: 575px ) { ... }</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Landscape Mobile - Small Devices</li>
+					<li class="list-inline-item">@media( min-width: 576px ) { ... }</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Tablets - Medium Devices</li>
+					<li class="list-inline-item">@media( min-width: 768px ) { ... }</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Desktops - Large Devices</li>
+					<li class="list-inline-item">@media( min-width: 992px ) { ... }</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="list-inline">
+					<li class="list-inline-item bg-dark text-light m-1 p-1">Large Desktops - Extra Large Devices</li>
+					<li class="list-inline-item">@media( min-width: 1200px ) { ... }</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
