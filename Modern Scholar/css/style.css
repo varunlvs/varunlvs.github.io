@@ -75,13 +75,13 @@ header .brand-img img {
 }
 
 @media (min-width: 576px){
-	/*header .left {display: none;}*/
-	.right { width: 30%; }
+	header .left {display: none;}
+	.right { width: 40%; }
 }
 
 @media (min-width: 768px){
 	/*header { background-color: tomato; }*/
-	/*header .left {display: none;}*/
+	header .left {display: block;}
 	.right { width: 30%; }
 }
 
