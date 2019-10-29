@@ -1,0 +1,95 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#do-lines {
+	background-color: #ecf0f1;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+#do-lines li {
+	margin: 2px;
+	display: block;
+	background-color: #34495e;
+	flex: 0 0 200px;
+	text-align: center;
+}
+
+#do-lines li > button {
+	width: 100%;
+	color: #ecf0f1;
+	letter-spacing: 2px;
+	font-size: .8em;
+	transition: all .5s;
+}
+
+#do-lines li > button:hover {
+	letter-spacing: 2px;
+	transition: all .5s;
+}
+
+#do-address {
+	background-color: #34495e;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+#do-address li {
+	margin: 2px;
+	display: block;
+	background-color: #ecf0f1;
+	flex: 0 0 500px;
+	text-align: center;
+}
+
+#do-address li > button > a {
+	color: #000;
+}
+
+#do-address li > button {
+	width: 100%;
+	color: #ecf0f1;
+	letter-spacing: 2px;
+	font-size: .8em;
+	transition: all .5s;
+}
+
+#do-address li > button:hover {
+	letter-spacing: 2px;
+	transition: all .5s;
+}
+
+.receiver-info {
+	text-align: left;
+}
+
+.receiver-info p {
+	margin: 2px;
+}
+
+td {
+	text-transform: lowercase;
+}
+
+.delinfo {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
