@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UI</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="header">
+		<div class="legend">
+			<div class="legend-item">
+				<h2 class="legend-item-month" id="month">DECEMBER</h2>
+			</div>
+			<div class="legend-item">
+				<h5 class="legend-item-shipments" id="total-shipments">45 Shipments</h5>
+				<p id="total-containers">Comprising 60 containers</p>
+			</div>
+			<div class="legend-item legend-item-bigger">
+				<h5 class="legend-item-filings">Documentation & Filings</h5>
+				<ul>
+					<li id="filings-overall">Overall Filings</li>
+					<li id="filings-ams">AMS</li>
+					<li id="filings-isf">ISF</li>
+					<li id="filings-cst">Customs</li>
+					<li id="filings-do">Delivery Orders</li>
+				</ul>
+			</div>
+			<div class="legend-item">
+				<h5 class="legend-item-shipments">Door Moves</h5>
+				<ul>
+					<li id="door-moves-sss">SSS Trucking</li>
+					<li id="door-moves-cy">Carrier Trucking</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="dashboard">
+
+			<div class="navigation">
+				<div class="item">
+					<button id="ui-port">By Port</button>
+				</div>
+				<!-- <div class="item">
+					<button id="ui-cnee">By Consignee</button>
+				</div> -->
+				<div class="item">
+					<button id="ui-fpod">By Final POD</button>
+				</div>
+				<div class="item">
+					<button id="ui-carrier">By Carrier</button>
+				</div>
+				<div class="item">
+					<button id="ui-agent">By Agent</button>
+				</div>
+			</div>
+
+			<div class="container-1">
+				<div id="ui-port-box" class="ports">
+					<h3>Shipments Based on Port</h3>
+					<hr>
+					<ul id="port-list"></ul>
+				</div>
+				
+				<div id="ui-agent-box" class="ports">
+					<h3>Shipments Based on Agent</h3>
+					<hr>
+					<ul id="agent-list"></ul>
+				</div>
+				<div id="ui-fpod-box" class="ports">
+					<h3>Shipments Based on FPOD</h3>
+					<hr>
+					<ul id="fpod-list"></ul>
+				</div>
+				<div id="ui-carrier-box" class="ports">
+					<h3>Shipments Based on Carrier</h3>
+					<hr>
+					<ul id="carrier-list"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="info-box">
+		<div id="ui-cnee-box" class="ports">
+			<h3>Shipments Based on Cnee</h3>
+			<hr>
+			<ul id="cnee-list"></ul>
+		</div>
+
+		<div class="comparison">
+			<h1>Imports Synopsis</h1>
+			<p id="analytics-extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet asperiores veritatis quae libero assumenda mollitia, consequatur doloribus magni at voluptas maiores nulla quo, facilis. Laborum voluptatibus aut dolor soluta officia!</p>
+			<hr>	
+			<h3>Hall Of Famer</h3>
+			<p id="HOF-scac">Most shipments handled through - Lorem</p>
+			<p id="HOF-cnee">Max containers per shipment - Lorem</p>
+			<p id="HOF-agent">Max containers per shipment - Lorem</p>
+			<p id="HOF-pod">Max containers per shipment - Lorem</p>
+		</div>
+	</div>
+
+
+	<script src="data.js"></script>
+	<script src="app.js"></script>
+	<script src="script.js"></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+	<script src="UI.js"></script>
+</body>
+</html>
+
+<!-- 
+
+* Return shipments & container count by carrier name
+* Return shipments & container count by agent name
+* Return shipments & container count by consignee name
+* Return shipments & container count by POD
+* Return AMS ISF & Customs Filing count
+* Return count of DOs created
+* Return count of Trucking done
+* Return shipment & container count by PRDT
+
+* UI
+* Month
+* Shipments / Containers
+* Filings
+* Trucking
+
+-->
