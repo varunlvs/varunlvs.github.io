@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Export</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/d3-tip.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+	    <div class="container">
+	    </div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="row">
+				<div class="col-md-6">
+					<button id="play-button" class="btn btn-primary">Play</button>
+					<button id="reset-button" class="btn btn-danger">Reset</button>
+					<button id="toggle-button" class="btn btn-success">Showing Agents</button>
+					<!-- <button class="btn btn-dark" onclick="showAll()">Show Overall</button> -->
+					<button class="btn btn-dark" onclick="toggler()">Show Overall</button>
+				</div>
+				<div class="col-md-6">
+					<select id="month-select" class="form-control">
+						<option selected value="1">January</option>
+						<option value="2">February</option>
+						<option value="3">March</option>
+						<option value="4">April</option>
+						<option value="5">May</option>
+						<option value="6">June</option>
+						<option value="7">July</option>
+						<option value="8">August</option>
+						<option value="9">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+	<div class="container">
+		<div id="chart-area"></div>		
+	</div>
+
+	<div class="container">
+		<p class="export">Overall Profit in 2019 - <span id="export-profit"></span><span id="export-addon">Exports</span></p>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3-tip.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
