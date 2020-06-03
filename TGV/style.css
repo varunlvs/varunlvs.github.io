@@ -187,3 +187,7 @@ button {
   color: #fff;
   opacity: .8;
 }
+
+.swiper-pagination-bullet {
+  background-color: ghostwhite;
+}
