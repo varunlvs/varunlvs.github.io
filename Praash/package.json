@@ -9,7 +9,7 @@
   "author": "Varun",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "npm": "^6.4.1"
