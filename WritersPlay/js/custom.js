@@ -1,8 +1,7 @@
 /*====================================================
                         SERVICES
 ====================================================*/
-$(function () {
-
+$(function() {
     // animate on scroll
     new WOW().init();
 });
@@ -10,40 +9,37 @@ $(function () {
 /*====================================================
                         WORK
 ====================================================*/
-$(function () {
-
+$(function() {
     $("#work").magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
+        delegate: "a", // child items selector, by clicking on it popup will open
+        type: "image",
         gallery: {
-            enabled: true
-        }
-
+            enabled: true,
+        },
     });
 });
 
 /*====================================================
                         TEAM
 ====================================================*/
-$(function () {
-
+$(function() {
     $("#team-members").owlCarousel({
         items: 3,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
-		responsive: {
-		  0: {
-			items: 1
-		  },
-		  480: {
-			items: 2
-		  },
-		  768: {
-			items: 3
-		  }
-		}
+        responsive: {
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 2,
+            },
+            768: {
+                items: 3,
+            },
+        },
     });
 
     $("#clients-list").owlCarousel({
@@ -53,71 +49,85 @@ $(function () {
         loop: true,
         autoplayHoverPause: true,
         responsive: {
-          0: {
-            items: 1
-          },
-          480: {
-            items: 2
-          },
-          768: {
-            items: 3
-          }
-        }
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 2,
+            },
+            768: {
+                items: 3,
+            },
+        },
+    });
+
+    $("#clientz-list").owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+        },
     });
 });
-
 
 /*====================================================
                         TESTIMONIALS
 ====================================================*/
-$(function () {
-
+$(function() {
     $("#customers-testimonials").owlCarousel({
         items: 1,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
     });
 });
-
 
 /*====================================================
                         STATS
 ====================================================*/
-$(function () {
-    $('.counter').counterUp({
+$(function() {
+    $(".counter").counterUp({
         delay: 10,
-        time: 2000
+        time: 2000,
     });
-
 });
 
 /*====================================================
                         CLIENTS
 ====================================================*/
-$(function () {
-
+$(function() {
     $("#clients-list-2").owlCarousel({
         items: 2,
         autoplay: true,
         smartSpeed: 1000,
         loop: true,
         autoplayHoverPause: true,
-		responsive: {
-		  0: {
-			items: 1
-		  },
-		  480: {
-			items: 3
-		  },
-		  768: {
-			items: 5
-		  },
-		  992: {
-			items: 6
-		  }
-		}
+        responsive: {
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 3,
+            },
+            768: {
+                items: 5,
+            },
+            992: {
+                items: 6,
+            },
+        },
     });
     $("#clients-list-1").owlCarousel({
         items: 2,
@@ -126,19 +136,19 @@ $(function () {
         loop: true,
         autoplayHoverPause: true,
         responsive: {
-          0: {
-            items: 1
-          },
-          480: {
-            items: 3
-          },
-          768: {
-            items: 5
-          },
-          992: {
-            items: 6
-          }
-        }
+            0: {
+                items: 1,
+            },
+            480: {
+                items: 3,
+            },
+            768: {
+                items: 5,
+            },
+            992: {
+                items: 6,
+            },
+        },
     });
 });
 
@@ -146,15 +156,12 @@ $(function () {
                         NAVIGATION
 ====================================================*/
 // Show/Hide transparent black navigation
-$(function () {
-
-    $(window).scroll(function () {
-
+$(function() {
+    $(window).scroll(function() {
         if ($(this).scrollTop() < 50) {
             // hide nav
             $("nav").removeClass("vesco-top-nav");
             $("#back-to-top").fadeOut();
-
         } else {
             // show nav
             $("nav").addClass("vesco-top-nav");
@@ -163,47 +170,26 @@ $(function () {
     });
 });
 // Smooth scrolling
-$(function () {
-
-    $("a.smooth-scroll").click(function (event) {
-
+$(function() {
+    $("a.smooth-scroll").click(function(event) {
         event.preventDefault();
 
         // get/return id like #about, #work, #team and etc
         var section = $(this).attr("href");
 
-        $('html, body').animate({
-            scrollTop: $(section).offset().top - 64
-        }, 1250, "easeInOutExpo");
+        $("html, body").animate(
+            {
+                scrollTop: $(section).offset().top - 64,
+            },
+            1250,
+            "easeInOutExpo"
+        );
     });
 });
 
 // Close mobile menu on click
-$(function(){
-    
-    $(".navbar-collapse ul li a").on("click touch", function(){
-       
+$(function() {
+    $(".navbar-collapse ul li a").on("click touch", function() {
         $(".navbar-toggle").click();
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
